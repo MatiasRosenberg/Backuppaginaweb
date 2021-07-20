@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ffa6d8;
+    nav{
+        width: 80%;
+        margin: 10px;
+        ul{
+            list-style: none;
+            width: 100%;
+            max-width: 120em;
+            margin: auto;
+            li{
+                display: inline-block;
+                text-align: center;
+                a{
+                    text-align: none;
+                    color: white;
+                    padding: 1.5em;
+                    display: block;
+                    &:hover{
+                        background: #f182c1;
+                    }
+                }
+            }
+        }
+    }
+}

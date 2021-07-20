@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Colo de fondo para la pagina*/
+body{
+    background-color: #ffc4e5;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Color de fondo para la cabezera*/
+header{
+    background-color: #ffa6d8;
+}
+/*Color de letras de la lista*/
+ul{
+    color: White;
+}
+/*Color de fondo para el pie de pagina*/
+footer{
+    background-color: #7d7a7d;
+    height: 210px;
+    display: block;
+    margin: auto;
+}
+/*Color de parrafos de los contactos*/
+.contactos{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+/*Logo*/
+#logo{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+/*Color de los titulos*/
+h1{
+    color: #ad11ad;
+    text-align: center;
+}
+h2{
+    color: #821282;
+}
+h3{
+    color: #753675;
+}
+/*barra de navegacion del header*/
+nav ul{
+    list-style: none;
+    width: 100%;
+    max-width: 120em;
+    margin: auto;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    text-align: none;
+    color: white;
+    padding: 1.5em;
+    display: block;
+}
+nav ul li a:hover{
+    background: #f182c1;
+}
+/*Imagen para iniciar sesion*/
+#iniciars{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -100px;
+}
+img{
+    width: 20px;
+}
+/*Centralizacion del footer*/
+#Entregas_Envios{
+    margin: auto;
+    color: white;
+}
+#Preguntas{
+    margin: auto;
+    color: white;
+}
+/*Centralizacion de las imagenes de la pagina index*/
+.Pprincipales img{
+    width: 200px;
+    height: 240px;
+    border: double 3px;
+    opacity: .5;
+}
+.Pprincipales img:hover{
+    opacity: 1;
+}
+.Pprincipales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*Form centrado*/
+form{
+    text-align: center;
+}
+audio{
+   display: block;
+   float: right;
+}
+.Portfolio {
+    width: 30%;
+    margin: auto;
+    border: double;
+}
+
+@media(max-width: 1200px){
+    body{
+        font-size: 16px;
+    }
+}
+@media(max-width: 992px){
+    body{
+        font-size: 14px;
+    }
+    header{
+        width: 992px;
+    }
+    footer{
+        width: 992px;
+    }
+    
+}
+
+@media(max-width: 576px){
+    body{
+        font-size: 14px;
+    }
+    header{
+        width: 576px;
+    }
+    footer{
+        width: 576px;
+    }
+}

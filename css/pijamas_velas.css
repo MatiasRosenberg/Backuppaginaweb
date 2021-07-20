@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: linear-gradient(to top, rgb(151, 75, 223), rgb(160, 74, 240), #ffc4e5, #ffa6d8);
+}
+.Tablas img{
+    width: 200px;
+    border-radius: 10%;
+    border: solid 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+table th{
+    font-size: 20px;
+    border: solid 3px;
+    width: 400px;
+}
+table td{
+    border: solid 3px;
+}
+.nombretabla{
+    text-align: center;
+    font-size: 30px;
+}
+.precios{
+    text-align: center;
+    font-size: 30px;
+}
+
