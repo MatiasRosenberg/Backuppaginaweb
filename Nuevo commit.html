@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #ffc4e5;
+        }
+    </style>
+    <title>Utopic Lingerie</title>
+    <meta name="description" content="Tienda de lenceria web, velas y pijamas para todas las edades!">
+    <meta name="keywords" content="HTML, LENCERIA, VELAS, WEB, PIJAMAS, OFERTAS">
+
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
+        <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li> <a href="todos-los-productos.html">Productos</a> </li> 
+                <li><a href="#Contactos">Contactos</a></li>
+            </ul>
+        </nav>   
+        <hr>             
+    </header>
+    <!--Portfolio-->
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide Portfolio" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Imagenes/Saleee.jpeg" class="d-block w-100" alt="sale">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Promo.jpeg" class="d-block w-100" alt="promo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Pijama_lobito.jpg" class="d-block w-100" alt="loito">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </main>
+        <audio src="Musica/Musica_inicio.mp3" controls="controls" autoplay></audio>
+        <br>
+        <h2>Productos</h2>
+        <br>
+        <button type="button" class="btn btn-outline-primary"><a href="todos-los-productos.html">Ver todos los productos</a></button>  <br> <br>
+        <section class="Pprincipales">
+            <main class="container">
+            <div class="row">
+                <div class="col-md-4 col-sx-6">
+                <a href="lenceria.html"><img src="Imagenes/Alheli frutilla.jpeg" alt="Lenceria"></a>
+                <h2>Conjuntos de lenceria</h2>
+                </div>
+                <div class="col-md-4 col-sx-6">
+                <a href="velas.html"><img src="Imagenes/Vela.jpg" alt="Vela de soja"></a>
+                <h2>Velas</h2>
+                </div>
+                <div class="col-md-4 col-sx-6">
+                <a href="pijamas.html"><img src="Imagenes/Pijama.jpg" alt="Pijamas"></a>
+                <h2>Pijamas</h2>
+                </div>
+            </div>
+            </main>
+        </section>
+        <br><br><br>
+    <footer>
+        <hr>
+        <div class="row" id="Contactos">
+            <div class="col">
+            <h3>Contactos</h3> <br>
+            <ul>
+                <li><img src="Imagenes/whatsapp.png">Whatsapp</li>
+                <li><a href="https://www.instagram.com/utopic.lingerie/"><img src="Imagenes/instagram.png">Instagram</a></li>
+                <li><img src="Imagenes/facebook.png">Facebook</li>
+                <li>📩 Mail</li>
+            </ul>
+            </div>
+            <div class="col" id="Entregas_Envios">
+            <span>🚐 Envios y entregas</span>
+            </div>
+            <div class="col" id="Preguntas">
+            <span><img src="Imagenes/email.png">Preguntas frecuentes</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
