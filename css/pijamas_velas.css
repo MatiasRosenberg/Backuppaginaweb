@@ -28,6 +28,7 @@ table th{
     font-size: 20px;
     border: solid 3px;
     width: 400px;
+    text-align: center;
 }
 table td{
     border: solid 3px;
@@ -39,5 +40,17 @@ table td{
 .precios{
     text-align: center;
     font-size: 30px;
+}
+footer{
+    background-color: #7d7a7d;
+    height: 210px;
+    display: block;
+    margin: auto;
+}
+/*Color de parrafos de los contactos*/
+.contactos{
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
 

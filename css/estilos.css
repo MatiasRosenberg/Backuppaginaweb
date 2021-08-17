@@ -22,6 +22,13 @@ footer{
     display: block;
     margin: auto;
 }
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
 /*Color de parrafos de los contactos*/
 .contactos{
     color: white;
@@ -117,7 +124,7 @@ audio{
 
 @media(max-width: 1200px){
     body{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 @media(max-width: 992px){
@@ -125,22 +132,24 @@ audio{
         font-size: 14px;
     }
     header{
-        width: 992px;
+        width: auto;
     }
     footer{
-        width: 992px;
+        width: auto;
     }
     
 }
 
-@media(max-width: 576px){
+@media(max-width: 600px){
     body{
-        font-size: 14px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
     }
+    
     header{
-        width: 576px;
+        width: auto;
     }
     footer{
-        width: 576px;
+        width: auto;
     }
 }

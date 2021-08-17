@@ -32,38 +32,40 @@
             <option value="Mayor_a_Menor">Mayor a Menor</option>
         </select>
     </section>
+    <br>
     
     <table class="Tablas">
         <tr>
             <th>Nombre</th>
-            <th>Imagenes</th>
+            <th>Imágenes</th>
             <th>Precio</th>
         </tr>
         <tr>
             <td class="nombretabla">Pijama de lobito</td>
             <td><img src="Imagenes/Pijama_lobito.jpg"></td>
-            <td class="precios">1500$</td>
+            <td class="precios">$1500</td>
         </tr>
         <tr>
-            <td class="nombretabla">Pijama de flores celestes</td>
+            <td class="nombretabla">Pijama de flores celeste</td>
             <td><img src="Imagenes/Pijama_florcita_celeste.jpg"></td>
-            <td class="precios">1400$</td>
+            <td class="precios">$1400</td>
         </tr>
         <tr>
             <td class="nombretabla">Pijama rosa</td>
             <td><img src="Imagenes/Pijama_rosa.jpg"></td>
-            <td class="precios">2000$</td>
+            <td class="precios">$2000</td>
         </tr>
         <tr>
             <td class="nombretabla">Pijama mostaza</td>
             <td><img src="Imagenes/Pijama_mostaza.jpg" alt=""></td>
-            <td class="precios">2000$</td>
+            <td class="precios">$2000</td>
         </tr>
     </table>
 
     <footer>
         <hr>
-        <section class="Contactos" id="Contactos">
+        <div class="row" id="Contactos">
+            <div class="col">
             <h3>Contactos</h3> <br>
             <ul>
                 <li><img src="Imagenes/whatsapp.png">Whatsapp</li>
@@ -71,13 +73,14 @@
                 <li><img src="Imagenes/facebook.png">Facebook</li>
                 <li>📩 Mail</li>
             </ul>
-        </section>
-        <section class="Entregas_Envios">
-            <span>🚐 Envios y entregas</span>
-        </section>
-        <section class="Preguntas">
+            </div>
+            <div class="col" id="Entregas_Envios">
+            <span>🚐 Envíos y entregas</span>
+            </div>
+            <div class="col" id="Preguntas">
             <span><img src="Imagenes/email.png">Preguntas frecuentes</span>
-        </section>
+            </div>
+        </div>
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>

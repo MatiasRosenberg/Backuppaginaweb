@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/pijamas_velas.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Todos los productos</title>
     <meta name="description" content="Tienda de lenceria web, velas y pijamas para todas las edades!">
     <meta name="keywords" content="HTML, LENCERIA, VELAS, WEB, PIJAMAS, OFERTAS">
@@ -20,7 +21,7 @@
                 <li> <a href="todos-los-productos.html">Productos</a> </li> 
                 <li><a href="#Contactos">Contactos</a></li>
             </ul>
-        </nav>   
+        </nav> 
         <hr>             
     </header>
 
@@ -29,75 +30,76 @@
     <table class="Tablas">
         <tr>
             <th>Nombre</th>
-            <th>Imagenes</th>
+            <th>Imágenes</th>
             <th>Precio</th>
         </tr>
         <tr>
-            <td class="nombretabla">Alheli Frutilla</td>
+            <td class="nombretabla">Alhelí frutilla</td>
             <td><img src="Imagenes/Alheli frutilla.jpeg" ></td>
-            <td class="precios">1200$</td>
+            <td class="precios">$1200</td>
         </tr>
         <tr>
             <td class="nombretabla">Vela de vidrio</td>
             <td><img src="Imagenes/Vela_vidrio.jpg"></td>
-            <td class="precios">1400$</td>
+            <td class="precios">$1400</td>
         </tr>
         <tr>
             <td class="nombretabla">Pijama de lobito</td>
             <td><img src="Imagenes/Pijama_lobito.jpg"></td>
-            <td class="precios">1500$</td>
+            <td class="precios">$1500</td>
         </tr>
         <tr>
-            <td class="nombretabla">Jazmin</td>
+            <td class="nombretabla">Jazmín</td>
             <td><img src="Imagenes/Jazmin.jpeg"></td>
-            <td class="precios">1100$</td>
+            <td class="precios">$1100</td>
         </tr>
         <tr>
             <td class="nombretabla">Vela en cuenco de madera</td>
             <td><img src="Imagenes/Vela_madera.jpg"></td>
-            <td class="precios">1300$</td>
+            <td class="precios">$1300</td>
         </tr>
         <tr>
-            <td class="nombretabla">Pijama de flores celestes</td>
+            <td class="nombretabla">Pijama de flores celeste</td>
             <td><img src="Imagenes/Pijama_florcita_celeste.jpg"></td>
-            <td class="precios">1400$</td>
+            <td class="precios">$1400</td>
         </tr>
         <tr>
             <td class="nombretabla">Camelia</td>
             <td><img src="Imagenes/Camelia.jpeg"></td>
-            <td class="precios">1220$</td>
+            <td class="precios">$1220</td>
         </tr>
         <tr>
-            <td class="nombretabla">Vela de Soja</td>
+            <td class="nombretabla">Vela de soja</td>
             <td><img src="Imagenes/Vela.jpg"></td>
-            <td class="precios">800$</td>
+            <td class="precios">$800</td>
         </tr>
         <tr>
             <td class="nombretabla">Pijama rosa</td>
             <td><img src="Imagenes/Pijama_rosa.jpg"></td>
-            <td class="precios">2000$</td>
+            <td class="precios">$2000</td>
         </tr>
         <tr>
-            <td class="nombretabla">Alheli Verder</td>
+            <td class="nombretabla">Alhelí verde</td>
             <td><img src="Imagenes/Alheli_verde.jpeg"></td>
-            <td class="precios">1200$</td>
+            <td class="precios">$1200</td>
         </tr>
         <tr>
-            <td class="nombretabla">Vela negrar</td>
+            <td class="nombretabla">Vela negra</td>
             <td><img src="Imagenes/Vela_negra.jpg"></td>
-            <td class="precios">1300$</td>
+            <td class="precios">$1300</td>
         </tr>
         <tr>
             <td class="nombretabla">Pijama mostaza</td>
             <td><img src="Imagenes/Pijama_mostaza.jpg" alt=""></td>
-            <td class="precios">2000$</td>
+            <td class="precios">$2000</td>
         </tr>
     </table>
 
 
     <footer>
         <hr>
-        <section class="Contactos" id="Contactos">
+        <div class="row" id="Contactos">
+            <div class="col">
             <h3>Contactos</h3> <br>
             <ul>
                 <li><img src="Imagenes/whatsapp.png">Whatsapp</li>
@@ -105,13 +107,15 @@
                 <li><img src="Imagenes/facebook.png">Facebook</li>
                 <li>📩 Mail</li>
             </ul>
-        </section>
-        <section class="Entregas_Envios">
-            <span>🚐 Envios y entregas</span>
-        </section>
-        <section class="Preguntas">
+            </div>
+            <div class="col" id="Entregas_Envios">
+            <span>🚐 Envíos y entregas</span>
+            </div>
+            <div class="col" id="Preguntas">
             <span><img src="Imagenes/email.png">Preguntas frecuentes</span>
-        </section>
+            </div>
+        </div>
     </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

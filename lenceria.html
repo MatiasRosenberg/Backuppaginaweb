@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/pijamas_velas.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Lenceria</title>
+    <title>Lencería</title>
     <meta name="description" content="Tienda de lenceria web, velas y pijamas para todas las edades!">
     <meta name="keywords" content="HTML, LENCERIA, VELAS, WEB, PIJAMAS, OFERTAS">
 </head>
@@ -26,7 +26,7 @@
     </header>
 
     <section>
-        <h1>LENCERIA</h1>
+        <h1>LENCERÍA</h1>
         <button type="button" class="btn btn-outline-primary"><a href="todos-los-productos.html">Ver todos los productos</a></button><br> <br>
         <select name="Ordenar_por_precios" id="">
             <option value="Ordenar_por_precios">Ordenar por precios</option>
@@ -39,34 +39,35 @@
     <table class="Tablas">
         <tr>
             <th>Nombre</th>
-            <th>Imagenes</th>
+            <th>Imágenes</th>
             <th>Precio</th>
         </tr>
         <tr>
-            <td class="nombretabla">Alheli Frutilla</td>
+            <td class="nombretabla">Alhelí Frutilla</td>
             <td><img src="Imagenes/Alheli frutilla.jpeg" ></td>
-            <td class="precios">1200$</td>
+            <td class="precios">$1200</td>
         </tr>
         <tr>
             <td class="nombretabla">Camelia</td>
             <td><img src="Imagenes/Camelia.jpeg"></td>
-            <td class="precios">1220$</td>
+            <td class="precios">$1220</td>
         </tr>
         <tr>
-            <td class="nombretabla">Jazmin</td>
+            <td class="nombretabla">Jazmín</td>
             <td><img src="Imagenes/Jazmin.jpeg"></td>
-            <td class="precios">1100$</td>
+            <td class="precios">$1100</td>
         </tr>
         <tr>
-            <td class="nombretabla">Alheli Verder</td>
+            <td class="nombretabla">Alhelí Verder</td>
             <td><img src="Imagenes/Alheli_verde.jpeg"></td>
-            <td class="precios">1200$</td>
+            <td class="precios">$1200</td>
         </tr>
     </table>
 
     <footer>
         <hr>
-        <section class="Contactos" id="Contactos">
+        <div class="row" id="Contactos">
+            <div class="col">
             <h3>Contactos</h3> <br>
             <ul>
                 <li><img src="Imagenes/whatsapp.png">Whatsapp</li>
@@ -74,13 +75,14 @@
                 <li><img src="Imagenes/facebook.png">Facebook</li>
                 <li>📩 Mail</li>
             </ul>
-        </section>
-        <section class="Entregas_Envios">
-            <span>🚐 Envios y entregas</span>
-        </section>
-        <section class="Preguntas">
+            </div>
+            <div class="col" id="Entregas_Envios">
+            <span>🚐 Envíos y entregas</span>
+            </div>
+            <div class="col" id="Preguntas">
             <span><img src="Imagenes/email.png">Preguntas frecuentes</span>
-        </section>
+            </div>
+        </div>
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
