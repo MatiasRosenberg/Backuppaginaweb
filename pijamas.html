@@ -11,56 +11,65 @@
 </head>
 <body>
     <header>
-        <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
+      <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
         <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="todos-los-productos.html">Productos</a> </li> 
-                <li><a href="#Contactos">Contactos</a></li>
-            </ul>
-        </nav>   
-        <hr>             
+        <ul class="nav fixed-top">
+            <li><a href="index.html">Inicio</a></li>
+            <li> <a href="">Productos</a>
+              <ul>
+                <li><a href="todos-los-productos.html">Todos los productos</a></li>
+                <li><a href="lenceria.html">Lenceria</a></li>
+                <li><a href="velas.html">Velas</a></li>
+                <li><a href="pijamas.html">Pijamas</a></li>
+              </ul>
+            </li> 
+            <li><a href="#Contactos">Contactos</a></li>
+        </ul>   
+        <hr>            
     </header>
 
     <section>
-        <h1>PIJAMAS</h1>
-        <button type="button" class="btn btn-outline-primary"><a href="todos-los-productos.html">Ver todos los productos</a></button>  <br> <br>
-        <select name="Ordenar_por_precios" id="">
-            <option value="Ordenar_por_precios">Ordenar por precios</option>
-            <option value="Menor_a_Mayor">Menor a Mayor</option>
-            <option value="Mayor_a_Menor">Mayor a Menor</option>
-        </select>
+        <h1>PIJAMAS</h1> <br>
     </section>
     <br>
-    
-    <table class="Tablas">
-        <tr>
-            <th>Nombre</th>
-            <th>Imágenes</th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama de lobito</td>
-            <td><img src="Imagenes/Pijama_lobito.jpg"></td>
-            <td class="precios">$1500</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama de flores celeste</td>
-            <td><img src="Imagenes/Pijama_florcita_celeste.jpg"></td>
-            <td class="precios">$1400</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama rosa</td>
-            <td><img src="Imagenes/Pijama_rosa.jpg"></td>
-            <td class="precios">$2000</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama mostaza</td>
-            <td><img src="Imagenes/Pijama_mostaza.jpg" alt=""></td>
-            <td class="precios">$2000</td>
-        </tr>
-    </table>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Pijama_lobito.jpg" class="card-img-top" alt="Pijama de lobito">
+            <div class="card-body">
+              <h5 class="card-title">Pijama de lobito</h5>
+              <p class="card-text">$1500</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_florcita_celeste.jpg" class="card-img-top" alt="Pijama de flores celeste">
+              <div class="card-body">
+                <h5 class="card-title">Pijama de flores celeste</h5>
+                <p class="card-text">$1400</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_rosa.jpg" class="card-img-top" alt="Pijama rosa">
+              <div class="card-body">
+                <h5 class="card-title">Pijama rosa</h5>
+                <p class="card-text">$2000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_mostaza.jpg" class="card-img-top" alt="Pijama mostaza">
+              <div class="card-body">
+                <h5 class="card-title">Pijama mostaza</h5>
+                <p class="card-text">$2000</p>
+              </div>
+            </div>
+          </div>
+    </div>
 
     <footer>
         <hr>

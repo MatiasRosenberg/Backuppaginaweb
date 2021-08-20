@@ -99,7 +99,7 @@ h4{
     width: 195px;
 }
 
-@media(max-width: 576px){
+@media(max-width: 600px){
     .Contenedorvelas{
        
         grid-template-columns: repeat(2, 1fr);
@@ -125,13 +125,7 @@ h4{
     }
     .Imagenes1:hover{
         transform: rotate(360deg);
-    }
-    .Imagenes2{
-        grid-area: Imagenes2;
-        transition: all 1s ease;
-    }
-    .Imagenes2:hover{
-        box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+        opacity: .2;
     }
     .Imagenes3{
         grid-area: Imagenes3;

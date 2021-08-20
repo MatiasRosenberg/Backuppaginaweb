@@ -13,56 +13,65 @@
 </head>
 <body>
     <header>
-        <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
-        <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="todos-los-productos.html">Productos</a> </li> 
-                <li><a href="#Contactos">Contactos</a></li>
-            </ul>
-        </nav>   
-        <hr>             
+      <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
+      <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
+        <ul class="nav fixed-top">
+            <li><a href="index.html">Inicio</a></li>
+            <li> <a href="">Productos</a>
+              <ul>
+                <li><a href="todos-los-productos.html">Todos los productos</a></li>
+                <li><a href="lenceria.html">Lenceria</a></li>
+                <li><a href="velas.html">Velas</a></li>
+                <li><a href="pijamas.html">Pijamas</a></li>
+              </ul>
+            </li> 
+            <li><a href="#Contactos">Contactos</a></li>
+        </ul>   
+      <hr>             
     </header>
 
     <section>
-        <h1>LENCERÍA</h1>
-        <button type="button" class="btn btn-outline-primary"><a href="todos-los-productos.html">Ver todos los productos</a></button><br> <br>
-        <select name="Ordenar_por_precios" id="">
-            <option value="Ordenar_por_precios">Ordenar por precios</option>
-            <option value="Menor_a_Mayor">Menor a Mayor</option>
-            <option value="Mayor_a_Menor">Mayor a Menor</option>
-        </select>
-        <br> <br>
+        <h1>LENCERÍA</h1> <br>
+        <br> 
     </section>
-    
-    <table class="Tablas">
-        <tr>
-            <th>Nombre</th>
-            <th>Imágenes</th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <td class="nombretabla">Alhelí Frutilla</td>
-            <td><img src="Imagenes/Alheli frutilla.jpeg" ></td>
-            <td class="precios">$1200</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Camelia</td>
-            <td><img src="Imagenes/Camelia.jpeg"></td>
-            <td class="precios">$1220</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Jazmín</td>
-            <td><img src="Imagenes/Jazmin.jpeg"></td>
-            <td class="precios">$1100</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Alhelí Verde</td>
-            <td><img src="Imagenes/Alheli_verde.jpeg"></td>
-            <td class="precios">$1200</td>
-        </tr>
-    </table>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Alheli frutilla.jpeg" class="card-img-top" alt="Alhelí frutilla">
+            <div class="card-body">
+              <h5 class="card-title">Alhelí frutilla</h5>
+              <p class="card-text">$1200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="Imagenes/Camelia.jpeg" class="card-img-top" alt="Camelia">
+              <div class="card-body">
+                <h5 class="card-title">Camelia</h5>
+                <p class="card-text">$1220</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Jazmin.jpeg" class="card-img-top" alt="Jazmín">
+              <div class="card-body">
+                <h5 class="card-title">Jazmín</h5>
+                <p class="card-text">$1100</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Alheli_verde.jpeg" class="card-img-top" alt="Alhelí Verde">
+              <div class="card-body">
+                <h5 class="card-title">Alhelí Verde</h5>
+                <p class="card-text">$1200</p>
+              </div>
+            </div>
+          </div>
+    </div>
 
     <footer>
         <hr>

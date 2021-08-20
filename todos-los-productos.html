@@ -13,88 +13,135 @@
 </head>
 <body>
     <header>
-        <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
-        <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="todos-los-productos.html">Productos</a> </li> 
-                <li><a href="#Contactos">Contactos</a></li>
-            </ul>
-        </nav> 
-        <hr>             
+      <img src="Imagenes/Logo.jpeg" alt="Utopic Lingerie" id="logo">
+      <a href="iniciar-sesion.html"><img src="Imagenes/Iniciar_sesion.png" alt="" id="iniciars"></a>
+        <ul class="nav fixed-top">
+            <li><a href="index.html">Inicio</a></li>
+            <li> <a href="">Productos</a>
+              <ul>
+                <li><a href="todos-los-productos.html">Todos los productos</a></li>
+                <li><a href="lenceria.html">Lenceria</a></li>
+                <li><a href="velas.html">Velas</a></li>
+                <li><a href="pijamas.html">Pijamas</a></li>
+              </ul>
+            </li> 
+            <li><a href="#Contactos">Contactos</a></li>
+        </ul>   
+      <hr>             
     </header>
 
     <h1>Todos los productos</h1>
 
-    <table class="Tablas">
-        <tr>
-            <th>Nombre</th>
-            <th>Imágenes</th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <td class="nombretabla">Alhelí frutilla</td>
-            <td><img src="Imagenes/Alheli frutilla.jpeg" ></td>
-            <td class="precios">$1200</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Vela de vidrio</td>
-            <td><img src="Imagenes/Vela_vidrio.jpg"></td>
-            <td class="precios">$1400</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama de lobito</td>
-            <td><img src="Imagenes/Pijama_lobito.jpg"></td>
-            <td class="precios">$1500</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Jazmín</td>
-            <td><img src="Imagenes/Jazmin.jpeg"></td>
-            <td class="precios">$1100</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Vela en cuenco de madera</td>
-            <td><img src="Imagenes/Vela_madera.jpg"></td>
-            <td class="precios">$1300</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama de flores celeste</td>
-            <td><img src="Imagenes/Pijama_florcita_celeste.jpg"></td>
-            <td class="precios">$1400</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Camelia</td>
-            <td><img src="Imagenes/Camelia.jpeg"></td>
-            <td class="precios">$1220</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Vela de soja</td>
-            <td><img src="Imagenes/Vela.jpg"></td>
-            <td class="precios">$800</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama rosa</td>
-            <td><img src="Imagenes/Pijama_rosa.jpg"></td>
-            <td class="precios">$2000</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Alhelí verde</td>
-            <td><img src="Imagenes/Alheli_verde.jpeg"></td>
-            <td class="precios">$1200</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Vela negra</td>
-            <td><img src="Imagenes/Vela_negra.jpg"></td>
-            <td class="precios">$1300</td>
-        </tr>
-        <tr>
-            <td class="nombretabla">Pijama mostaza</td>
-            <td><img src="Imagenes/Pijama_mostaza.jpg" alt=""></td>
-            <td class="precios">$2000</td>
-        </tr>
-    </table>
-
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Alheli frutilla.jpeg" class="card-img-top" alt="Alhelí frutilla">
+            <div class="card-body">
+              <h5 class="card-title">Alhelí frutilla</h5>
+              <p class="card-text">$1200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Vela_vidrio.jpg" class="card-img-top" alt="Vela de vidrio">
+            <div class="card-body">
+              <h5 class="card-title">Vela de vidrio</h5>
+              <p class="card-text">$1400</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Pijama_lobito.jpg" class="card-img-top" alt="Pijama de lobito">
+            <div class="card-body">
+              <h5 class="card-title">Pijama de lobito</h5>
+              <p class="card-text">$1500</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/Jazmin.jpeg" class="card-img-top" alt="Jazmín">
+            <div class="card-body">
+              <h5 class="card-title">Jazmín</h5>
+              <p class="card-text">$1100</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="Imagenes/Vela_madera.jpg" class="card-img-top" alt="Vela en cuenco de madera">
+              <div class="card-body">
+                <h5 class="card-title">Vela en cuenco de madera</h5>
+                <p class="card-text">$1300</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_florcita_celeste.jpg" class="card-img-top" alt="Pijama de flores celeste">
+              <div class="card-body">
+                <h5 class="card-title">Pijama de flores celeste</h5>
+                <p class="card-text">$1400</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Camelia.jpeg" class="card-img-top" alt="Camelia">
+              <div class="card-body">
+                <h5 class="card-title">Camelia</h5>
+                <p class="card-text">$1220</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Vela.jpg" class="card-img-top" alt="Vela de soja">
+              <div class="card-body">
+                <h5 class="card-title">Vela de soja</h5>
+                <p class="card-text">$800</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_rosa.jpg" class="card-img-top" alt="Pijama rosa">
+              <div class="card-body">
+                <h5 class="card-title">Pijama rosa</h5>
+                <p class="card-text">$2000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Alheli_verde.jpeg" class="card-img-top" alt="Alhelí verde">
+              <div class="card-body">
+                <h5 class="card-title">Alhelí verde</h5>
+                <p class="card-text">$1200</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Vela_negra.jpg" class="card-img-top" alt="Vela_negra">
+              <div class="card-body">
+                <h5 class="card-title">Vela negra</h5>
+                <p class="card-text">$1300</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Imagenes/Pijama_mostaza.jpg" class="card-img-top" alt="Pijama mostaza">
+              <div class="card-body">
+                <h5 class="card-title">Pijama mostaza</h5>
+                <p class="card-text">$2000</p>
+              </div>
+            </div>
+          </div>
+      </div>
 
     <footer>
         <hr>

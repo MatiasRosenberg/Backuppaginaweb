@@ -33,7 +33,7 @@ footer ul li a{
 .contactos{
     color: white;
     display: flex;
-    justify-content: space-around;
+    margin: auto;
 }
 /*Logo*/
 #logo{
@@ -54,24 +54,26 @@ h3{
     color: #753675;
 }
 /*barra de navegacion del header*/
-nav ul{
+ul, ol{
     list-style: none;
-    width: 100%;
-    max-width: 120em;
-    margin: auto;
 }
-nav ul li{
-    display: inline-block;
-    text-align: center;
-}
-nav ul li a{
-    text-align: none;
+.nav li a{
+    background-color: #ffa6d8;
     color: white;
-    padding: 1.5em;
+    text-decoration: none;
+    padding: 10px 15px;
     display: block;
 }
-nav ul li a:hover{
+.nav li a:hover{
     background: #f182c1;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
 }
 /*Imagen para iniciar sesion*/
 #iniciars{
@@ -86,10 +88,12 @@ img{
 /*Centralizacion del footer*/
 #Entregas_Envios{
     margin: auto;
+    margin-bottom: 90px;
     color: white;
 }
 #Preguntas{
     margin: auto;
+    margin-bottom: 90px;
     color: white;
 }
 /*Centralizacion de las imagenes de la pagina index*/
@@ -121,6 +125,10 @@ audio{
     margin: auto;
     border: double;
 }
+.Portfolio img{
+    width: 200px;
+    height: 500px;
+}
 
 @media(max-width: 1200px){
     body{
@@ -145,7 +153,17 @@ audio{
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+    .Portfolio img{
+        width: 200px;
+        height: 300px;
+    }
+    .nav li a{
+        background-color: #ffa6d8;
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+    }
     header{
         width: auto;
     }
