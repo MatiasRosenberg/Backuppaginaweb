@@ -119,6 +119,7 @@ form{
 audio{
    display: block;
    float: right;
+   width: 240px;
 }
 .Portfolio {
     width: 30%;
@@ -148,26 +149,72 @@ audio{
     
 }
 
-@media(max-width: 600px){
+@media(max-width: 425px){
     body{
-        font-size: 10px;
+        font-size: 11px;
         font-family: Arial, Helvetica, sans-serif;
     }
+    .Portfolio {
+        width: 50%;
+        margin: auto;
+        border: double;
+    }
     .Portfolio img{
-        width: 200px;
+        width: 400px;
         height: 300px;
     }
     .nav li a{
         background-color: #ffa6d8;
         color: white;
         text-decoration: none;
-        padding: 5px 10px;
+        padding: 4px 8px;
         display: block;
     }
     header{
         width: auto;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     footer{
         width: auto;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer img{
+        width: 18px;
+    }
+    #Entregas_Envios {
+        margin-bottom: 60px;
+    }
+    #Preguntas {
+        margin-bottom: 60px;
+    }
+}
+@media(max-width: 375px){
+    .nav li a{
+        background-color: #ffa6d8;
+        color: white;
+        text-decoration: none;
+        padding: 4px 8px;
+        display: block;
+    }
+    header{
+        width: auto;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer{
+        width: auto;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer img{
+        width: 14px;
+    }
+    #Entregas_Envios {
+        margin-bottom: 55px;
+    }
+    #Preguntas {
+        margin-bottom: 55px;
     }
 }
