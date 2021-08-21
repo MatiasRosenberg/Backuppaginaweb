@@ -9,8 +9,8 @@ body{
     background: linear-gradient(to top, rgb(151, 75, 223), rgb(160, 74, 240), #ffc4e5, #ffa6d8);
 }
 .card{
-    width: 200px;
-    height: 370px;
+    width: 250px;
+    height: 320px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ body{
     margin-bottom: 20px;
 }
 .card img{
-    height: 240px;
+    height: 70%;
 }
 .card{
     grid-area: Imagenes;
